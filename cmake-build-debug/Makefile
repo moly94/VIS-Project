@@ -47,10 +47,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Felix\ClionProjects\VIS
+CMAKE_SOURCE_DIR = C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Felix\ClionProjects\VIS\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\ClionProjects\VIS\cmake-build-debug\CMakeFiles C:\Users\Felix\ClionProjects\VIS\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug\CMakeFiles C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\ClionProjects\VIS\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,125 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named VIS
+# Target rules for targets named Aufgabe1_Client
 
 # Build rule for target.
-VIS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 VIS
-.PHONY : VIS
+Aufgabe1_Client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Aufgabe1_Client
+.PHONY : Aufgabe1_Client
 
 # fast build rule for target.
-VIS/fast:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/build
-.PHONY : VIS/fast
-
-CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.obj: CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.obj
-
-.PHONY : CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.obj
-
-# target to build an object file
-CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.obj:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.obj
-.PHONY : CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.obj
-
-CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.i: CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.i
-
-.PHONY : CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.i
-
-# target to preprocess a source file
-CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.i:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.i
-.PHONY : CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.i
-
-CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.s: CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.s
-
-.PHONY : CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.s
-
-# target to generate assembly for a file
-CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.s:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.s
-.PHONY : CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c.s
-
-CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-
-.PHONY : CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.obj
-
-# target to build an object file
-CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-.PHONY : CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-
-CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-.PHONY : CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to preprocess a source file
-CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
-.PHONY : CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to generate assembly for a file
-CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
-CMakeFiles/feature_tests.obj: CMakeFiles/feature_tests.c.obj
-
-.PHONY : CMakeFiles/feature_tests.obj
-
-# target to build an object file
-CMakeFiles/feature_tests.c.obj:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/feature_tests.c.obj
-.PHONY : CMakeFiles/feature_tests.c.obj
-
-CMakeFiles/feature_tests.i: CMakeFiles/feature_tests.c.i
-
-.PHONY : CMakeFiles/feature_tests.i
-
-# target to preprocess a source file
-CMakeFiles/feature_tests.c.i:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/feature_tests.c.i
-.PHONY : CMakeFiles/feature_tests.c.i
-
-CMakeFiles/feature_tests.s: CMakeFiles/feature_tests.c.s
-
-.PHONY : CMakeFiles/feature_tests.s
-
-# target to generate assembly for a file
-CMakeFiles/feature_tests.c.s:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/feature_tests.c.s
-.PHONY : CMakeFiles/feature_tests.c.s
-
-CMakeFiles/feature_tests.obj: CMakeFiles/feature_tests.cxx.obj
-
-.PHONY : CMakeFiles/feature_tests.obj
-
-# target to build an object file
-CMakeFiles/feature_tests.cxx.obj:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/feature_tests.cxx.obj
-.PHONY : CMakeFiles/feature_tests.cxx.obj
-
-CMakeFiles/feature_tests.i: CMakeFiles/feature_tests.cxx.i
-
-.PHONY : CMakeFiles/feature_tests.i
-
-# target to preprocess a source file
-CMakeFiles/feature_tests.cxx.i:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/feature_tests.cxx.i
-.PHONY : CMakeFiles/feature_tests.cxx.i
-
-CMakeFiles/feature_tests.s: CMakeFiles/feature_tests.cxx.s
-
-.PHONY : CMakeFiles/feature_tests.s
-
-# target to generate assembly for a file
-CMakeFiles/feature_tests.cxx.s:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/CMakeFiles/feature_tests.cxx.s
-.PHONY : CMakeFiles/feature_tests.cxx.s
+Aufgabe1_Client/fast:
+	$(MAKE) -f CMakeFiles\Aufgabe1_Client.dir\build.make CMakeFiles/Aufgabe1_Client.dir/build
+.PHONY : Aufgabe1_Client/fast
 
 main.obj: main.cpp.obj
 
@@ -236,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Aufgabe1_Client.dir\build.make CMakeFiles/Aufgabe1_Client.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -245,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Aufgabe1_Client.dir\build.make CMakeFiles/Aufgabe1_Client.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -254,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\VIS.dir\build.make CMakeFiles/VIS.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Aufgabe1_Client.dir\build.make CMakeFiles/Aufgabe1_Client.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -263,21 +155,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... VIS
+	@echo ... Aufgabe1_Client
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.obj
-	@echo ... CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.i
-	@echo ... CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.s
-	@echo ... CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.obj
-	@echo ... CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.i
-	@echo ... CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.s
-	@echo ... CMakeFiles/feature_tests.obj
-	@echo ... CMakeFiles/feature_tests.i
-	@echo ... CMakeFiles/feature_tests.s
-	@echo ... CMakeFiles/feature_tests.obj
-	@echo ... CMakeFiles/feature_tests.i
-	@echo ... CMakeFiles/feature_tests.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,13 +1,9 @@
 cmake_minimum_required(VERSION 3.6)
-project(VIS)
+project(Aufgabe1_Client)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES
-    cmake-build-debug/CMakeFiles/3.6.2/CompilerIdC/CMakeCCompilerId.c
-    cmake-build-debug/CMakeFiles/3.6.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-    cmake-build-debug/CMakeFiles/feature_tests.c
-    cmake-build-debug/CMakeFiles/feature_tests.cxx
-    main.cpp)
+set(SOURCE_FILES main.cpp)
+add_executable(Aufgabe1_Client ${SOURCE_FILES})
 
-add_executable(VIS ${SOURCE_FILES})
+target_link_libraries(Aufgabe1_Client wsock32 ws2_32)
