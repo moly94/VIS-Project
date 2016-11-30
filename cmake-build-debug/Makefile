@@ -47,10 +47,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client
+CMAKE_SOURCE_DIR = C:\Users\Felix\ClionProjects\VIS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Felix\ClionProjects\VIS\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug\CMakeFiles C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\ClionProjects\VIS\cmake-build-debug\CMakeFiles C:\Users\Felix\ClionProjects\VIS\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\Dropbox\FH-Hagenberg_MyStuff\FH-WS16\VIS\VIS_Mark\UE01\Aufgabe1_Client\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Felix\ClionProjects\VIS\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
